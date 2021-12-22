@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Roboto Slab";
+    src: url('./fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: "Roboto Light";
+    src: url('./fonts/Roboto/Roboto-Light.ttf');
+}
+
+body {
+    background: #aaccff;
+    font-size: 20px;
+    width: 60%;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Slab";
+}
+
+main {
+    text-align: justify;
+}
+
+p, div, section {
+    font-family: "Roboto Light";
+    font-size: 1.4rem;
+}
+
+.main-title {
+    text-align: center;
+}
